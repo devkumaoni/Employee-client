@@ -1,6 +1,6 @@
 const Dashboard = document.querySelector("#dashboard");
 
-fetch("https://employee-api-beta.vercel.app/fetch", { method: "get" })
+fetch("https://employee-server-ci8r.onrender.com/fetch", { method: "get" })
   .then((res) => res.json())
   .then((data) => {
     data.map(
