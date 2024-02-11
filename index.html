@@ -12,62 +12,62 @@
                 <div class="form_1" >
                     <h2>Employee Database</h2>
                     
-                        <form action="https://employee-server-avfy.onrender.com/register" method="post" >                
+                        <form >                
                         <div class="form_container">
                             <div class="input_wrap">
                                 <label for="proposed_role">Proposed Role *</label>
-                                <input type="text" name="Proposed_Role" id="user_name" required>
+                                <input class="post_data" type="text" name="Proposed_Role" id="user_name" required>
                             </div>
                         
                             <div class="input_wrap">
                                 <label for="name_resource">Name of Resource *</label>
-                                <input type="text" name="Name_of_Resource" id="name_resource">
+                                <input class="post_data" type="text" name="Name_of_Resource" id="name_resource">
                             </div>
                             <div class="input_wrap">
                                 <label for="location">Location *</label>
-                                <input type="text" name="Location" id="location">
+                                <input class="post_data" type="text" name="Location" id="location">
                             </div>
                             <div class="input_wrap">
                                 <label for="date_of_joining">Date of Joining *</label>
-                                <input type="text" name="Date_of_Joining" id="date_of_joining">
+                                <input class="post_data" type="text" name="Date_of_Joining" id="date_of_joining">
                             </div>
                         </div>
                 
                         <div class="form_container">
                             <div class="input_wrap">
                                 <label for="employee_code">Employee code *</label>
-                                <input type="text" name="Employee_code" id="employee_code">
+                                <input class="post_data" type="text" name="Employee_code" id="employee_code">
                             </div>
                             <div class="input_wrap">
                                 <label for="email_id">Email iD (personal) *</label>
-                                <input type="text" name="Email_iD_personal" id="email_id">
+                                <input class="post_data" type="text" name="Email_iD_personal" id="email_id">
                             </div>
                             <div class="input_wrap">
                                 <label for="email_official">Email iD (Official) *</label>
-                                <input type="text" name="Email_iD_Official" id="email_official">
+                                <input class="post_data" type="text" name="Email_iD_Official" id="email_official">
                             </div>
                             <div class="input_wrap">
                                 <label for="contact_number">Contact number *</label>
-                                <input type="text" name="Contact_number" id="contact_number">
+                                <input class="post_data" type="text" name="Contact_number" id="contact_number">
                             </div>
                         </div>
            
                   <div class="form_container">
                       <div class="input_wrap">
                           <label for="emergency_contact">Emergency contact number *</label>
-                          <input type="text" name="Emergency_contact_number" id="emergency_contact">
+                          <input class="post_data" type="text" name="Emergency_contact_number" id="emergency_contact">
                       </div>
                       <div class="input_wrap">
                           <label for="business_unit">Business Unit *</label>
-                          <input type="text" name="Business_Unit" id="business_unit">
+                          <input class="post_data" type="text" name="Business_Unit" id="business_unit">
                       </div>
                       <div class="input_wrap">
                           <label for="department">Department *</label>
-                          <input type="text" name="Department" id="department">
+                          <input class="post_data" type="text" name="Department" id="department">
                       </div>
                       <div class="input_wrap">
                           <label for="reporting_manager">Reporting Manager *</label>
-                          <input type="text" name="Reporting_Manager" id="reporting_manager">
+                          <input class="post_data" type="text" name="Reporting_Manager" id="reporting_manager">
                       </div>
                   </div>
                
@@ -76,9 +76,10 @@
                     <div class="common_btns form_3_btns">
 
                         <a href="./dashboard.html" ><button class="a" type="button" >Dashboard</button></a>
-             
+            
                         <a href="./dashboard.html">
-                        <button type="submit" class="btn_done">
+                        <button type="button" class="btn_done" id="button_Submit_From">
+
                                 Done 
                             </button>
                         </a>
@@ -102,5 +103,6 @@
                      
                 </div>
             </div>
+            <script src="./index.js"></script>
     </body>
 </html>
