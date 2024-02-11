@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Employee Details</title>
+        <link rel="stylesheet"  href="style.css">
+    </head>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <body>
+
+        <div class="wrapper">
+            <div class="form_wrap">
+                <div class="form_1" >
+                    <h2>Employee Database</h2>
+                    
+                        <form action="https://employee-api-beta.vercel.app/register" method="post" >                
+                        <div class="form_container">
+                            <div class="input_wrap">
+                                <label for="proposed_role">Proposed Role *</label>
+                                <input type="text" name="Proposed_Role" id="user_name" required>
+                            </div>
+                        
+                            <div class="input_wrap">
+                                <label for="name_resource">Name of Resource *</label>
+                                <input type="text" name="Name_of_Resource" id="name_resource">
+                            </div>
+                            <div class="input_wrap">
+                                <label for="location">Location *</label>
+                                <input type="text" name="Location" id="location">
+                            </div>
+                            <div class="input_wrap">
+                                <label for="date_of_joining">Date of Joining *</label>
+                                <input type="text" name="Date_of_Joining" id="date_of_joining">
+                            </div>
+                        </div>
+                
+                        <div class="form_container">
+                            <div class="input_wrap">
+                                <label for="employee_code">Employee code *</label>
+                                <input type="text" name="Employee_code" id="employee_code">
+                            </div>
+                            <div class="input_wrap">
+                                <label for="email_id">Email iD (personal) *</label>
+                                <input type="text" name="Email_iD_personal" id="email_id">
+                            </div>
+                            <div class="input_wrap">
+                                <label for="email_official">Email iD (Official) *</label>
+                                <input type="text" name="Email_iD_Official" id="email_official">
+                            </div>
+                            <div class="input_wrap">
+                                <label for="contact_number">Contact number *</label>
+                                <input type="text" name="Contact_number" id="contact_number">
+                            </div>
+                        </div>
+           
+                  <div class="form_container">
+                      <div class="input_wrap">
+                          <label for="emergency_contact">Emergency contact number *</label>
+                          <input type="text" name="Emergency_contact_number" id="emergency_contact">
+                      </div>
+                      <div class="input_wrap">
+                          <label for="business_unit">Business Unit *</label>
+                          <input type="text" name="Business_Unit" id="business_unit">
+                      </div>
+                      <div class="input_wrap">
+                          <label for="department">Department *</label>
+                          <input type="text" name="Department" id="department">
+                      </div>
+                      <div class="input_wrap">
+                          <label for="reporting_manager">Reporting Manager *</label>
+                          <input type="text" name="Reporting_Manager" id="reporting_manager">
+                      </div>
+                  </div>
+               
+                  <div class="btns_wrap">  
+
+                    <div class="common_btns form_3_btns">
+
+                        <a href="./dashboard.html" ><button class="a" type="button" >Dashboard</button></a>
+             
+                        <button type="submit" class="btn_done">Done</button>
+                    </div>
+                       
+                </div>
+                
+                
+                </form>
+                </div>
+            </div>
+    
+
+            <div class="modal_wrapper">
+                <div class="shadow"></div>
+                <div class="success_wrap">
+                   <span class="modal_icon">
+                       <ion-icon name="checkmark-outline"></ion-icon>
+                </span>
+                <p>Successfully completed!</p>
+                     
+                </div>
+            </div>
+    </body>
+</html>

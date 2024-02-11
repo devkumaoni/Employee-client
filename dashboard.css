@@ -1,0 +1,65 @@
+* {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+
+
+body{
+    background: white;
+    position: relative;
+    margin: 20px;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    position: absolute;
+    left: 25px;
+    
+    
+}
+
+
+
+.tab{
+    
+    border-collapse: collapse;
+    margin: 35px 5px;
+    font-size: medium;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0 ;
+    overflow: hidden;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+    
+    
+
+}
+
+.tab thead tr{
+    background-color: #09203F;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.tab th,
+
+.tab td{
+    padding: 12px 15px;
+}
+
+.tab  tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.tab tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.tab tr:last-of-type{
+    border-bottom: 2px solid #2F4F4F;
+}
+
