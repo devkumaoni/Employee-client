@@ -63,3 +63,10 @@ a{
     border-bottom: 2px solid #2F4F4F;
 }
 
+.table_header{
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+td{
+    border: 2px solid black;
+}
