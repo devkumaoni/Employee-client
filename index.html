@@ -29,7 +29,7 @@
                             </div>
                             <div class="input_wrap">
                                 <label for="date_of_joining">Date of Joining *</label>
-                                <input class="post_data" type="text" name="Date_of_Joining" id="date_of_joining">
+                                <input class="post_data" type="datetime-local" name="Date_of_Joining" id="date_of_joining">
                             </div>
                         </div>
                 
@@ -48,7 +48,7 @@
                             </div>
                             <div class="input_wrap">
                                 <label for="contact_number">Contact number *</label>
-                                <input class="post_data" type="text" name="Contact_number" id="contact_number">
+                                <input class="post_data" type="tel" placeholder="012-345-6789" maxlength="10" name="Contact_number" id="contact_number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                             </div>
                         </div>
            
@@ -80,7 +80,7 @@
                         <a href="./dashboard.html">
                         <button type="button" class="btn_done" id="button_Submit_From">
 
-                                Done 
+                                Submit
                             </button>
                         </a>
                     </div>
