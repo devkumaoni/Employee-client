@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
     data = Array.from(data).map((d) => {
       return { [d.name]: d.value };
     });
+    data["Date_of_Joining"] = data.Date_of_Joining.toString();
+    console.log(typeof data.Date_of_Joining);
 
     fetch("https://employee-server-a1wz.onrender.com/register", {
       method: "POST",
