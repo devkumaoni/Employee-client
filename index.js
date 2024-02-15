@@ -18,7 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
     })
       .then((res) => {
         if (res.status == 201) {
-          console.log("Success");
+          window.location.href =
+            "https://employee-client-19iu.onrender.com/dashboard.html";
         }
       })
       .catch((err) => console.log("Error"));
